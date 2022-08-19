@@ -1,0 +1,112 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url(/img/math.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+#quiz {
+  width: 30rem;
+  /*padding: 4rem;*/
+  text-align: center;
+  margin: 0 auto;
+}
+
+.estiloPuntos {
+  color: #F092A7;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2px 0;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+#question {
+  border-radius: .5rem;
+  font-size: 2rem;
+  color: #2dabd1;
+  margin: auto;
+  padding: 5px;
+}
+
+.button {
+  background-color: #373435;
+  border: #fff solid 2px;
+  color: #fff;
+  width: 200px;
+  font-size: 25px;
+  border-radius: 0.3rem;
+  padding: 10px 20px;
+  margin: 10px 40px 10px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #0A6394;
+  transition: 1s;
+}
+
+#progress {
+  font-size: 30px;
+  font-weight: 800;
+  color: #F7ADAF;
+}
+
+#logo-stardew {
+  max-width: 95%;
+  height: auto;
+  margin-bottom: 45px;
+}
+
+#formNombre {
+  width: 160px;
+}
+
+
+#table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  background-color: #373435;
+  border-color: #fff;
+  border: solid 2px;
+  color: #fff;
+  width: 130px;
+  font-size: 25px;
+  font-weight: normal;
+  border-radius: 0.3rem;
+  padding: 5px 20px;
+  margin: 10px 40px 10px;
+  text-align: center;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+
+input {
+  text-align: center;
+}
+
+#temporizador {
+  padding-top: 2rem;
+  font-size: 90px;
+  margin: 0 auto;
+  color: #869CF0;
+}
+
+#rankingTitle {
+  font-size: 70px;
+  color: #7AD1F0;
+  text-shadow: #F7ADAF 3px 3px;
+    margin: 0 auto;
+}
