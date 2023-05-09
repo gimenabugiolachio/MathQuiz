@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   background-size: cover;
+  background-color: #232323;
 }
 
 #quiz {
