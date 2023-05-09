@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background-image: url(math.jpg);
+  background-image: url(./math.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
