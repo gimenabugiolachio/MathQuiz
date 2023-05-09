@@ -5,14 +5,17 @@ body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+html{
   background-image: url(https://github.com/gimenabugiolachio/MathQuiz/blob/master/math.jpg);
+  background-size: cover;
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-size: cover;
-  background-color: #232323;
+  /*background-color: #232323;*/
 }
 
 #quiz {
